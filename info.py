@@ -46,7 +46,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
@@ -76,11 +76,11 @@ REQ_CHANNEL = int(environ.get('REQ_CHANNEL'))
 # LAZY_AI_LOGS = int(environ.get("LAZY_AI_LOGS","")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of LazyPrincess ]
 
 # Requested Content template variables ---
-ADMIN_USRNM = environ.get('ADMIN_USRNM','real_heros') # WITHOUT @
-MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','real_MoviesAdda3') # WITHOUT @
-DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM','LayDeveloperr') # WITHOUT @
+ADMIN_USRNM = environ.get('ADMIN_USRNM','Capta1_n') # WITHOUT @
+MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','Mdisk_blast_membership') # WITHOUT @
+DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM','mdiskblast_Botz') # WITHOUT @
 LAZY_YT_HANDLE = environ.get('LAZY_YT_HANDLE','LayDeveloperr')  # WITHOUT @ [  add only handle - don't add full url  ] 
-MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "+qAxoGBvSc34yNmU1") #[ without @ ]
+MOVIE_GROUP_USERNAME = environ.get('MOVIE_GROUP_USERNAME', "+FxYSrgSBW9Y3ZDgx") #[ without @ ]
 
 # Url Shortner
 URL_MODE = is_enabled((environ.get("URL_MODE","True")), False)
@@ -149,18 +149,18 @@ MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 
 # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 600))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 
 # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/LazyDeveloper"
+DOWNLOAD_TEXT_NAME = "📥 PREMIUM APP VIDEOS 📥"
+DOWNLOAD_TEXT_URL = "https://t.me/Mdisk_Blast_Membership"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/LazyDeveloper"
+CAPTION_BUTTON_URL = "https://t.me/mdiskblast_Botz"
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
